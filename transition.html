@@ -14,10 +14,13 @@
         background-color: aqua;
         /*  আমার বক্স কালার হবে সাইডে সরে যাবে পুরা যায়গা নিয়ে  */
         /* transition: width 5s linear 1s; */
-        transition: transform 2s ;
+        transition: transform 1s ;
     }
     .box:hover{
-        width: 300px;
+        /* transform: rotate(45deg); */
+        /* transform: rotate(-45deg) scale(1.25); */
+        transform: rotate(-45deg) scale(1.25) translateX(150px);
+        /* width: 300px; */
         background-color: brown;
     }
 </style>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css varible</title>
+    <style>
+        :root{
+            --primary-color: tomato;
+            --secondary-color:blue;
+            --font-size:20px;
+        }
+        h1{
+            color: var(--primary-color);
+        }
+        h5{
+            background-color: var(--primary-color);
+        }
+        .box{
+            color: var(--secondary-color);
+            border: 2px solid red ;
+            font-size: var(--font-size);
+            width: calc(100% - 300px);
+        }
+    </style>
+
+</head>
+<body>
+    <h1> My custom properies</h1>
+    <h5> Also commonly known  as Css varibles</h5>
+    <p class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam molestiae perferendis fugiat consectetur beatae vero quam enim, eveniet veritatis minus!
+    </p>
+    
+</body>
+</html>
