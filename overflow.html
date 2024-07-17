@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OVerflow</title>
+    <style>
+        .box{
+            width: 500px;
+            height: 300px;
+            border: 2px solid red ;
+            overflow-x: auto;
+        }
+        /* #box-1{
+            overflow: scroll;
+            overflow-x: hidden;
+        } */
+         .elipsis{
+            width: 200px;
+            border: 2px solid red;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+         }
+    </style>
+</head>
+<body>
+             <!--  elipsis হইলো কোণ লেখা কে (lorem ipsem dolor sit.......)  আর আমরা যদি class a যদি class এর পরিবর্তে title a এ লেখা দিতে পারি   -->
+     <header>
+        <p title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minima ut placeat eligendi. Nam dolorum, ipsum obcaecati, quam, facere quod nemo voluptatum eveniet" class="elipsis">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minima ut placeat eligendi. Nam dolorum, ipsum obcaecati, quam, facere quod nemo voluptatum eveniet.
+        </p>
+     </header>
+    <section>
+        <!-- .box*2>h3{my twxt box$}+p>lorem200 -->
+        <div id="box-1" class="box">
+            <h3>my twxt box1</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium ullam quo laboriosam odio maxime. Commodi nulla similique, saepe modi qui quasi inventore, esse vel officiis unde corrupti quae, eaque ullam cumque nihil. Mollitia illo a assumenda perferendis ratione deleniti nobis? Rerum ea doloremque sapiente asperiores obcaecati consectetur, magni vero? Fuga, iure, temporibus facere qui dolor neque veritatis doloremque quia praesentium cum est quo ipsum in quis suscipit quae, exercitationem nobis voluptas pariatur dicta labore! Saepe molestiae provident itaque minus qui ullam sit maxime accusamus. Amet corporis, velit corrupti soluta eius alias. Aliquid nisi laudantium omnis quos tempore, recusandae quidem ut, ex illo nihil dolorem nesciunt corrupti nostrum doloribus vero quam dignissimos. Quasi, nam aliquam! Possimus cumque suscipit dolorum magni laborum dolores porro mollitia deleniti assumenda voluptatibus, atque eos nobis a quos illum, nemo dolor temporibus repellendus, inventore modi soluta eveniet error cum reprehenderit. Incidunt voluptate, aliquid delectus, doloremque eius laboriosam temporibus ullam expedita rerum, repellat doloribus at molestias blanditiis itaque fugiat! Qui nemo magnam ipsum aspernatur, dolorum deserunt obcaecati repudiandae culpa beatae quas ex exercitationem ad praesentium distinctio pariatur iure? Unde laborum asperiores blanditiis magni atque numquam nostrum fugit, in obcaecati molestias tempore sed inventore alias praesentium possimus vero doloribus!</p>
+        </div>
+        <div class="box">
+            <h3>my twxt box2</h3>
+            <p>Labore quam reprehenderit consectetur dicta praesentium tempore molestias libero, adipisci aut dolores atque? Harum nam et vitae fugiat placeat rerum impedit at explicabo, praesentium quas, saepe suscipit cum atque odit laudantium alias blanditiis nemo! Repellat perspiciatis nulla sed eaque nihil totam temporibus, facere, deserunt voluptas error cum! Enim voluptatum voluptatem incidunt facilis expedita ullam consectetur aspernatur. Numquam vitae quasi, at, nam pariatur voluptatibus ipsum reprehenderit voluptatum quos magni ducimus expedita, dicta magnam doloribus incidunt obcaecati saepe repudiandae quaerat sequi quae iure? Fugit, alias ipsam nostrum aliquid delectus debitis animi harum quia qui quo, maiores quas necessitatibus? Reiciendis ratione magnam blanditiis expedita, quae, fugit earum dolores mollitia quaerat unde illum vel velit itaque, ullam eius inventore ipsam? Ipsam nihil nostrum tenetur. Nemo eum consequuntur ea velit, odio inventore, magnam autem reiciendis ex commodi recusandae doloremque officiis pariatur quae, similique dolor dignissimos eos quidem! Consequatur, sint maxime aspernatur voluptate exercitationem molestiae rem voluptas quos sequi? Iste officia quibusdam aut obcaecati et officiis ab eos iusto nisi pariatur? Neque pariatur maiores ratione quaerat repudiandae tempore esse voluptatibus veniam dolor a aut eligendi nam quisquam eius, voluptates consectetur cum, deserunt fugiat amet harum! Facere libero quos soluta architecto dolore maxime accusamus eligendi mollitia illo.</p>
+        </div>
+        <!-- .box>h3{text box3}+p>lorem20 -->
+        <div class="box">
+            <h3>text box3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam laudantium, asperiores nemo perferen Cum.</p>
+        </div>
+    </section>
+</body>
+</html>
